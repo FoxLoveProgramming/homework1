@@ -1,0 +1,46 @@
+html{
+  font-size: small;
+}
+
+.infor {
+  border-collapse: collapse;
+}
+.infor td,
+th {
+  border: 1px solid black;
+  width: 8rem;
+  height: 2rem;
+}
+.infor td {
+  text-align: center;
+}
+.infor th {
+  text-align: left;
+  background-color: rgb(242, 248, 255);
+}
+.infor caption {
+  font-size: x-large;
+  background-color: rgb(242, 248, 255);
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.choice{
+  border: none !important;
+  text-align: left !important;
+}
+
+/*
+实现方形框的单选框
+*/
+.infor input[type="radio"]{
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.infor input:checked{
+  background-color: gray;
+}
